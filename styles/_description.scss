@@ -1,0 +1,30 @@
+    .description {
+        background-color: $background-section;
+        &__text {
+            font-weight: 300;
+            font-size: $size-text-font;
+            line-height: 40.74px;
+            margin: 0 auto;
+            max-width: 941px;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .description {
+            &__text {
+                max-width: 602px;
+                font-size: 22px;
+                line-height: 29.88px;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .description {
+            &__text {
+                max-width: 541px;
+                font-size: 20px;
+                line-height: 27.16px;
+            }
+        }
+    }

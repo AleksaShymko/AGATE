@@ -1,0 +1,21 @@
+    .footer-header {
+        font-size: 65px;
+        line-height: 81.45px;
+        margin-bottom: 60px;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .footer-header {
+            font-size: 50px;
+            line-height: 62.65px;
+            margin-bottom: 50px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .footer-header {
+            font-size: $size-heading-font;
+            line-height: 50.12px;
+            margin-bottom: 40px;
+        }
+    }

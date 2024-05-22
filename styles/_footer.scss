@@ -1,0 +1,26 @@
+footer {
+    background-color: #262626;
+    color: $text_color;
+}
+
+.footer__text {
+    font-weight: 300;
+    line-height: 31.33px;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__text {
+        font-size: $size-font-button;
+        line-height: 25.06px;
+        margin-bottom: 47px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__text {
+        font-size: $size-small-font;
+        line-height: 22.55px;
+        margin-bottom: 35px;
+    }
+}

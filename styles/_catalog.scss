@@ -1,0 +1,27 @@
+.catalog {
+    &__text {
+        line-height: 31.33px;
+        font-weight: 300;
+        margin: 30px 0 60px;
+        color: $small-font;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .catalog__text {
+        font-size: 22px;
+        line-height: 27.57px;
+        margin: 30px 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .catalog {
+        padding: 70px 24px 70px;
+    }
+    .catalog__text {
+        font-size: 20px;
+        line-height: 25.06px;
+        margin: 20px 0 58px;
+    }
+}

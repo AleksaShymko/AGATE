@@ -1,0 +1,45 @@
+.chef {
+    background-color: $background-section;
+    &__text {
+        line-height: 31.33px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        color: $small-font;
+    }
+    &__description {
+        font-size: $size-text-font;
+        line-height: 41.19px;
+        font-weight: 300;
+        max-width: 939px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .chef {
+        &__text {
+            font-size: 22px;
+            line-height: 27.57px;
+        }
+        &__description {
+            max-width: 691px;
+            font-size: 22px;
+            line-height: 30.21px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .chef {
+        &__text {
+            font-size: 20px;
+            line-height: 25.06px;
+            margin-bottom: 20px;
+        }
+        &__description {
+            max-width: 626px;
+            font-size: 20px;
+            line-height: 27.46px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.chef-image {
+    max-width: 398px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .chef-image {
+        max-width: 282px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .chef-image {
+        max-width: 251px;
+    }
+}

@@ -1,0 +1,27 @@
+.heading {
+    font-size: $size-heading-font;
+    line-height: 50.12px;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .heading {
+        font-size: $size-font-contacts;
+        line-height: 43.86px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: $size-text-font;
+        line-height: 37.59px;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .heading {
+        font-size: 25px;
+    }
+}
